@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="appvega.iat.widifirmaan.iat">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -27,12 +28,9 @@
         <activity
             android:name=".testrun"
             android:label="@string/title_activity_testrun" />
-        <activity
-            android:name=".addparticipant"
-            android:label="@string/title_activity_addparticipant" />
         <activity android:name=".petunjuktest" />
         <activity android:name=".Statistik" />
-        <activity android:name=".Statistik2"></activity>
+        <activity android:name=".Latihan"></activity>
     </application>
 
 </manifest>
